@@ -107,9 +107,6 @@ export default class ReactGridLayout extends React.Component<Props, State> {
       w: 1
     },
     resizeHandles: ["se"],
-    itemY?: undefined,
-    itemX?: undefined,
-    layoutKey?: ""
     onLayoutChange: noop,
     onDragStart: noop,
     onDrag: noop,
@@ -702,7 +699,7 @@ export default class ReactGridLayout extends React.Component<Props, State> {
     if ( e && e.target ) {
 			const target = e.target.closest('.layout-border')
 			if (target && target.id !== layoutKey && this.dragEnterCounter > 0) {
-				_this.onDragLeave()
+				this.onDragLeave()
 			}
 		}
   };
