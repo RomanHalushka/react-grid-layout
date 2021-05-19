@@ -107,6 +107,9 @@ export default class ReactGridLayout extends React.Component<Props, State> {
       w: 1
     },
     resizeHandles: ["se"],
+    itemY?: undefined,
+    itemX?: undefined,
+    layoutKey?: ""
     onLayoutChange: noop,
     onDragStart: noop,
     onDrag: noop,
@@ -619,11 +622,38 @@ export default class ReactGridLayout extends React.Component<Props, State> {
       rowHeight,
       maxRows,
       width,
-      containerPadding
+      containerPadding,
+      itemY,
+      itemX,
+      layoutKey
     } = this.props;
     const { layout } = this.state;
     // This is relative to the DOM element that this event fired for.
     const { layerX, layerY } = e.nativeEvent;
+
+    	// when layout is nested - update layerY based on layout y position
+		if ( itemY ) {
+			const containerPadding = containerPadding || margin;
+			const calLeft = Math.round((rowHeight + margin[1]) * itemY + containerPadding[1]);
+			layerY = layerY - calLeft;
+		}
+
+		// when layout is nested - update layerX based on layout x position
+		if ( itemX ) {
+			const positionParams
+				= {
+				cols: cols,
+				margin: margin,
+				maxRows: maxRows,
+				rowHeight: rowHeight,
+				containerWidth: width,
+				containerPadding: containerPadding || margin
+			};
+			const colWidth = _calculateUtils.calcGridColWidth(positionParams);
+			const calTop = Math.round((colWidth + margin[0]) * itemX + positionParams.containerPadding[0]);
+			layerX = layerX - calTop;
+		}
+
     const droppingPosition = { left: layerX, top: layerY, e };
 
     if (!this.state.droppingDOMNode) {
@@ -668,6 +698,13 @@ export default class ReactGridLayout extends React.Component<Props, State> {
 
     e.stopPropagation();
     e.preventDefault();
+
+    if ( e && e.target ) {
+			const target = e.target.closest('.layout-border')
+			if (target && target.id !== layoutKey && this.dragEnterCounter > 0) {
+				_this.onDragLeave()
+			}
+		}
   };
 
   removeDroppingPlaceholder: () => void = () => {
