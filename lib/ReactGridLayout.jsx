@@ -628,14 +628,10 @@ export default class ReactGridLayout extends React.Component<Props, State> {
     // This is relative to the DOM element that this event fired for.
     const { layerX, layerY } = e.nativeEvent;
 
-    	// when layout is nested - update layerY based on layout y position
-		if ( itemY ) {
-			const containerPadding = containerPadding || margin;
-			const calLeft = Math.round((rowHeight + margin[1]) * itemY + containerPadding[1]);
-			layerY = layerY - calLeft;
-		}
+    let eventLayerX = layerX
+    let eventLayerY = layerY
 
-		// when layout is nested - update layerX based on layout x position
+    // when layout is nested - update layerX based on layout x position
 		if ( itemX ) {
 			const positionParams
 				= {
@@ -648,10 +644,17 @@ export default class ReactGridLayout extends React.Component<Props, State> {
 			};
 			const colWidth = _calculateUtils.calcGridColWidth(positionParams);
 			const calTop = Math.round((colWidth + margin[0]) * itemX + positionParams.containerPadding[0]);
-			layerX = layerX - calTop;
+			eventLayerX = layerX - calTop;
 		}
 
-    const droppingPosition = { left: layerX, top: layerY, e };
+    // when layout is nested - update layerY based on layout y position
+		if ( itemY ) {
+			const containerPadding = containerPadding || margin;
+			const calLeft = Math.round((rowHeight + margin[1]) * itemY + containerPadding[1]);
+			eventLayerY = layerY - calLeft;
+		}
+
+    const droppingPosition = { left: eventLayerX, top: eventLayerY, e };
 
     if (!this.state.droppingDOMNode) {
       const positionParams: PositionParams = {
@@ -665,8 +668,8 @@ export default class ReactGridLayout extends React.Component<Props, State> {
 
       const calculatedPosition = calcXY(
         positionParams,
-        layerY,
-        layerX,
+        eventLayerY,
+        eventLayerX,
         droppingItem.w,
         droppingItem.h
       );
@@ -687,7 +690,7 @@ export default class ReactGridLayout extends React.Component<Props, State> {
       });
     } else if (this.state.droppingPosition) {
       const { left, top } = this.state.droppingPosition;
-      const shouldUpdatePosition = left != layerX || top != layerY;
+      const shouldUpdatePosition = left != eventLayerX || top != eventLayerY;
       if (shouldUpdatePosition) {
         this.setState({ droppingPosition });
       }
