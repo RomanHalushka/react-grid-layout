@@ -19,7 +19,7 @@ import {
   withLayoutItem
 } from "./utils";
 
-import { calcXY } from "./calculateUtils";
+import { calcXY, calcGridColWidth } from "./calculateUtils";
 
 import GridItem from "./GridItem";
 import ReactGridLayoutPropTypes from "./ReactGridLayoutPropTypes";
@@ -642,7 +642,7 @@ export default class ReactGridLayout extends React.Component<Props, State> {
 				containerWidth: width,
 				containerPadding: containerPadding || margin
 			};
-			const colWidth = _calculateUtils.calcGridColWidth(positionParams);
+			const colWidth = calcGridColWidth(positionParams);
 			const calTop = Math.round((colWidth + margin[0]) * itemX + positionParams.containerPadding[0]);
 			eventLayerX = layerX - calTop;
 		}
