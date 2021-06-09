@@ -726,8 +726,9 @@ export default class ReactGridLayout extends React.Component<Props, State> {
   };
 
   onDragLeave: () => void = () => {
-    this.dragEnterCounter--;
-
+    if (this.dragEnterCounter > 0) {
+      this.dragEnterCounter--;
+    }
     // onDragLeave can be triggered on each layout's child.
     // But we know that count of dragEnter and dragLeave events
     // will be balanced after leaving the layout's container
