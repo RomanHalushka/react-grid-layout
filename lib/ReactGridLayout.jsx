@@ -622,6 +622,7 @@ export default class ReactGridLayout extends React.Component<Props, State> {
       containerPadding,
       itemY,
       itemX,
+      mainContainerWidth,
       layoutKey
     } = this.props;
     const { layout } = this.state;
@@ -633,13 +634,17 @@ export default class ReactGridLayout extends React.Component<Props, State> {
 
     // when layout is nested - update layerX based on layout x position
 		if ( itemX ) {
+      let mainWidth = width
+      if (mainContainerWidth) {
+        mainWidth = mainContainerWidth
+      }
 			const positionParams
 				= {
 				cols: cols,
 				margin: margin,
 				maxRows: maxRows,
 				rowHeight: rowHeight,
-				containerWidth: width,
+				containerWidth: mainWidth,
 				containerPadding: containerPadding || margin
 			};
 			const colWidth = calcGridColWidth(positionParams);
