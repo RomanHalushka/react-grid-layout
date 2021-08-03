@@ -728,6 +728,10 @@ export default class ReactGridLayout extends React.Component<Props, State> {
       activeDrag: null,
       droppingPosition: undefined
     });
+
+    if (this.props.placeholderRemoved) { 
+      this.props.placeHolderRemoved()
+    }
   };
 
   onDragLeave: () => void = () => {
@@ -741,7 +745,10 @@ export default class ReactGridLayout extends React.Component<Props, State> {
     // when it'll be equal to 0 we'll remove the placeholder
     if (this.dragEnterCounter === 0) {
       this.removeDroppingPlaceholder();
-    }
+    } else if (this.props.placeholderRemoved) { 
+      this.dragEnterCounter = 0;
+      this.removeDroppingPlaceholder();
+    } 
   };
 
   onDragEnter: () => void = () => {
