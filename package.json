@@ -1,6 +1,6 @@
 {
   "name": "@goodrequest/react_grid_layout",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "A draggable and resizable grid layout with responsive breakpoints, for React.",
   "main": "index.js",
   "scripts": {
