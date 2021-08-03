@@ -221,6 +221,10 @@ export default class ReactGridLayout extends React.Component<Props, State> {
 
       this.onLayoutMaybeChanged(newLayout, oldLayout);
     }
+    if (this.props.removePlaceholder) {
+			this.dragEnterCounter = 0;
+			this.removeDroppingPlaceholder();
+		}
   }
 
   /**
