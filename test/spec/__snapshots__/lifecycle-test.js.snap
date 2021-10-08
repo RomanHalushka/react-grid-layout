@@ -161,6 +161,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
     rowHeight={30}
   >
     <ReactGridLayout
+      allowOverlap={false}
       autoSize={true}
       className="layout"
       cols={12}
@@ -604,6 +605,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
       onDragStart={[Function]}
       onDragStop={[Function]}
       onDrop={[Function]}
+      onDropDragOver={[Function]}
       onLayoutChange={[Function]}
       onResize={[Function]}
       onResizeStart={[Function]}
@@ -687,7 +689,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -706,13 +707,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -781,11 +780,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -794,13 +790,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -867,7 +861,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -886,13 +879,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -961,11 +952,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -974,13 +962,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -1047,7 +1033,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -1066,13 +1051,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -1141,11 +1124,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -1154,13 +1134,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -1227,7 +1205,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -1246,13 +1223,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -1321,11 +1296,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -1334,13 +1306,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -1407,7 +1377,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -1426,13 +1395,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -1501,11 +1468,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -1514,13 +1478,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -1587,7 +1549,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -1606,13 +1567,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -1681,11 +1640,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -1694,13 +1650,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -1767,7 +1721,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -1786,13 +1739,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -1861,11 +1812,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -1874,13 +1822,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -1947,7 +1893,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -1966,13 +1911,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -2041,11 +1984,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -2054,13 +1994,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -2127,7 +2065,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -2146,13 +2083,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -2221,11 +2156,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -2234,13 +2166,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -2307,7 +2237,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -2326,13 +2255,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -2401,11 +2328,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -2414,13 +2338,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -2487,7 +2409,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -2506,13 +2427,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -2581,11 +2500,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -2594,13 +2510,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -2667,7 +2581,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -2686,13 +2599,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -2761,11 +2672,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -2774,13 +2682,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -2847,7 +2753,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -2866,13 +2771,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -2941,11 +2844,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -2954,13 +2854,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -3027,7 +2925,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -3046,13 +2943,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -3121,11 +3016,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -3134,13 +3026,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -3207,7 +3097,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -3226,13 +3115,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -3301,11 +3188,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -3314,13 +3198,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -3387,7 +3269,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -3406,13 +3287,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -3481,11 +3360,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -3494,13 +3370,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -3567,7 +3441,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -3586,13 +3459,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -3661,11 +3532,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -3674,13 +3542,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -3747,7 +3613,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -3766,13 +3631,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -3841,11 +3704,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -3854,13 +3714,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -3927,7 +3785,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -3946,13 +3803,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -4021,11 +3876,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -4034,13 +3886,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -4107,7 +3957,6 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -4126,13 +3975,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -4201,11 +4048,8 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -4214,13 +4058,11 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -4401,6 +4243,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
     rowHeight={30}
   >
     <ReactGridLayout
+      allowOverlap={false}
       autoSize={true}
       className="layout"
       cols={12}
@@ -4844,6 +4687,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
       onDragStart={[Function]}
       onDragStop={[Function]}
       onDrop={[Function]}
+      onDropDragOver={[Function]}
       onLayoutChange={[Function]}
       onResize={[Function]}
       onResizeStart={[Function]}
@@ -4927,7 +4771,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -4946,13 +4789,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -5021,11 +4862,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -5034,13 +4872,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -5107,7 +4943,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -5126,13 +4961,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -5201,11 +5034,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -5214,13 +5044,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -5287,7 +5115,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -5306,13 +5133,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -5381,11 +5206,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -5394,13 +5216,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -5467,7 +5287,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -5486,13 +5305,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -5561,11 +5378,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -5574,13 +5388,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -5647,7 +5459,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -5666,13 +5477,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -5741,11 +5550,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -5754,13 +5560,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -5827,7 +5631,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -5846,13 +5649,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -5921,11 +5722,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -5934,13 +5732,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -6007,7 +5803,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -6026,13 +5821,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -6101,11 +5894,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -6114,13 +5904,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -6187,7 +5975,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -6206,13 +5993,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -6281,11 +6066,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -6294,13 +6076,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -6367,7 +6147,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -6386,13 +6165,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -6461,11 +6238,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -6474,13 +6248,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -6547,7 +6319,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -6566,13 +6337,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -6641,11 +6410,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -6654,13 +6420,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -6727,7 +6491,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -6746,13 +6509,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -6821,11 +6582,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -6834,13 +6592,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -6907,7 +6663,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -6926,13 +6681,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -7001,11 +6754,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -7014,13 +6764,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -7087,7 +6835,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -7106,13 +6853,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -7181,11 +6926,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -7194,13 +6936,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -7267,7 +7007,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -7286,13 +7025,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -7361,11 +7098,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -7374,13 +7108,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -7447,7 +7179,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -7466,13 +7197,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -7541,11 +7270,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -7554,13 +7280,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -7627,7 +7351,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -7646,13 +7369,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -7721,11 +7442,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -7734,13 +7452,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -7807,7 +7523,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -7826,13 +7541,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -7901,11 +7614,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -7914,13 +7624,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -7987,7 +7695,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -8006,13 +7713,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -8081,11 +7786,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -8094,13 +7796,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -8167,7 +7867,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -8186,13 +7885,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -8261,11 +7958,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -8274,13 +7968,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -8347,7 +8039,6 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             cancel=".react-resizable-handle"
             disabled={false}
             enableUserSelectHack={true}
-            grid={null}
             handle=""
             nodeRef={
               Object {
@@ -8366,13 +8057,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </div>,
               }
             }
-            offsetParent={null}
             onDrag={[Function]}
             onMouseDown={[Function]}
             onStart={[Function]}
             onStop={[Function]}
             scale={1}
-            transform={null}
           >
             <Resizable
               axis="both"
@@ -8441,11 +8130,8 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                 </span>
                 <DraggableCore
                   allowAnyClick={false}
-                  cancel={null}
                   disabled={false}
                   enableUserSelectHack={true}
-                  grid={null}
-                  handle={null}
                   key="resizableHandle-se"
                   nodeRef={
                     Object {
@@ -8454,13 +8140,11 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
                       />,
                     }
                   }
-                  offsetParent={null}
                   onDrag={[Function]}
                   onMouseDown={[Function]}
                   onStart={[Function]}
                   onStop={[Function]}
                   scale={1}
-                  transform={null}
                 >
                   <span
                     className="react-resizable-handle react-resizable-handle-se"
@@ -8645,6 +8329,1011 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
     />
   </WidthProvider>
 </BasicLayout>
+`;
+
+exports[`Lifecycle tests <ReactGridLayout> data-grid Creates layout based on properties 1`] = `
+<ReactGridLayout
+  allowOverlap={false}
+  autoSize={true}
+  className="layout"
+  cols={12}
+  compactType="vertical"
+  containerPadding={null}
+  draggableCancel=""
+  draggableHandle=""
+  droppingItem={
+    Object {
+      "h": 1,
+      "i": "__dropping-elem__",
+      "w": 1,
+    }
+  }
+  isBounded={false}
+  isDraggable={true}
+  isDroppable={false}
+  isResizable={true}
+  layout={Array []}
+  margin={
+    Array [
+      10,
+      10,
+    ]
+  }
+  maxRows={Infinity}
+  onDrag={[Function]}
+  onDragStart={[Function]}
+  onDragStop={[Function]}
+  onDrop={[Function]}
+  onDropDragOver={[Function]}
+  onLayoutChange={[Function]}
+  onResize={[Function]}
+  onResizeStart={[Function]}
+  onResizeStop={[Function]}
+  preventCollision={false}
+  resizeHandles={
+    Array [
+      "se",
+    ]
+  }
+  rowHeight={30}
+  style={Object {}}
+  transformScale={1}
+  useCSSTransforms={true}
+  verticalCompact={true}
+  width={1200}
+>
+  <div
+    className="react-grid-layout layout"
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    style={
+      Object {
+        "height": "90px",
+      }
+    }
+  >
+    <GridItem
+      cancel=""
+      className=""
+      cols={12}
+      containerPadding={
+        Array [
+          10,
+          10,
+        ]
+      }
+      containerWidth={1200}
+      h={2}
+      handle=""
+      i="a"
+      isBounded={false}
+      isDraggable={false}
+      isResizable={false}
+      key=".$a"
+      margin={
+        Array [
+          10,
+          10,
+        ]
+      }
+      maxH={Infinity}
+      maxRows={Infinity}
+      maxW={Infinity}
+      minH={1}
+      minW={1}
+      onDrag={[Function]}
+      onDragStart={[Function]}
+      onDragStop={[Function]}
+      onResize={[Function]}
+      onResizeStart={[Function]}
+      onResizeStop={[Function]}
+      resizeHandles={
+        Array [
+          "se",
+        ]
+      }
+      rowHeight={30}
+      static={true}
+      transformScale={1}
+      useCSSTransforms={true}
+      usePercentages={false}
+      w={1}
+      x={0}
+      y={0}
+    >
+      <DraggableCore
+        allowAnyClick={false}
+        cancel=".react-resizable-handle"
+        disabled={true}
+        enableUserSelectHack={true}
+        handle=""
+        nodeRef={
+          Object {
+            "current": <div
+              class="react-grid-item static cssTransforms react-resizable-hide react-resizable"
+              data-grid="[object Object]"
+              style="width: 89px; height: 70px; position: absolute; transform: translate(10px,10px);"
+            >
+              a
+              <span
+                class="react-resizable-handle react-resizable-handle-se"
+              />
+            </div>,
+          }
+        }
+        onDrag={[Function]}
+        onMouseDown={[Function]}
+        onStart={[Function]}
+        onStop={[Function]}
+        scale={1}
+      >
+        <Resizable
+          axis="both"
+          className="react-resizable-hide"
+          draggableOpts={
+            Object {
+              "disabled": true,
+            }
+          }
+          handleSize={
+            Array [
+              20,
+              20,
+            ]
+          }
+          height={70}
+          lockAspectRatio={false}
+          maxConstraints={
+            Array [
+              1180,
+              Infinity,
+            ]
+          }
+          minConstraints={
+            Array [
+              89,
+              30,
+            ]
+          }
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
+          onResize={[Function]}
+          onResizeStart={[Function]}
+          onResizeStop={[Function]}
+          onTouchEnd={[Function]}
+          resizeHandles={
+            Array [
+              "se",
+            ]
+          }
+          transformScale={1}
+          width={89}
+        >
+          <div
+            className="react-grid-item static cssTransforms react-resizable-hide react-resizable"
+            data-grid={
+              Object {
+                "h": 2,
+                "static": true,
+                "w": 1,
+                "x": 0,
+                "y": 0,
+              }
+            }
+            key="a"
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            style={
+              Object {
+                "MozTransform": "translate(10px,10px)",
+                "OTransform": "translate(10px,10px)",
+                "WebkitTransform": "translate(10px,10px)",
+                "height": "70px",
+                "msTransform": "translate(10px,10px)",
+                "position": "absolute",
+                "transform": "translate(10px,10px)",
+                "width": "89px",
+              }
+            }
+          >
+            a
+            <DraggableCore
+              allowAnyClick={false}
+              disabled={true}
+              enableUserSelectHack={true}
+              key="resizableHandle-se"
+              nodeRef={
+                Object {
+                  "current": <span
+                    class="react-resizable-handle react-resizable-handle-se"
+                  />,
+                }
+              }
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              scale={1}
+            >
+              <span
+                className="react-resizable-handle react-resizable-handle-se"
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+              />
+            </DraggableCore>
+          </div>
+        </Resizable>
+      </DraggableCore>
+    </GridItem>
+    <GridItem
+      cancel=""
+      className=""
+      cols={12}
+      containerPadding={
+        Array [
+          10,
+          10,
+        ]
+      }
+      containerWidth={1200}
+      h={2}
+      handle=""
+      i="b"
+      isBounded={false}
+      isDraggable={true}
+      isResizable={true}
+      key=".$b"
+      margin={
+        Array [
+          10,
+          10,
+        ]
+      }
+      maxH={Infinity}
+      maxRows={Infinity}
+      maxW={4}
+      minH={1}
+      minW={2}
+      onDrag={[Function]}
+      onDragStart={[Function]}
+      onDragStop={[Function]}
+      onResize={[Function]}
+      onResizeStart={[Function]}
+      onResizeStop={[Function]}
+      resizeHandles={
+        Array [
+          "se",
+        ]
+      }
+      rowHeight={30}
+      static={false}
+      transformScale={1}
+      useCSSTransforms={true}
+      usePercentages={false}
+      w={3}
+      x={1}
+      y={0}
+    >
+      <DraggableCore
+        allowAnyClick={false}
+        cancel=".react-resizable-handle"
+        disabled={false}
+        enableUserSelectHack={true}
+        handle=""
+        nodeRef={
+          Object {
+            "current": <div
+              class="react-grid-item react-draggable cssTransforms react-resizable"
+              data-grid="[object Object]"
+              style="width: 288px; height: 70px; position: absolute; transform: translate(109px,10px);"
+            >
+              b
+              <span
+                class="react-resizable-handle react-resizable-handle-se"
+              />
+            </div>,
+          }
+        }
+        onDrag={[Function]}
+        onMouseDown={[Function]}
+        onStart={[Function]}
+        onStop={[Function]}
+        scale={1}
+      >
+        <Resizable
+          axis="both"
+          draggableOpts={
+            Object {
+              "disabled": false,
+            }
+          }
+          handleSize={
+            Array [
+              20,
+              20,
+            ]
+          }
+          height={70}
+          lockAspectRatio={false}
+          maxConstraints={
+            Array [
+              387,
+              Infinity,
+            ]
+          }
+          minConstraints={
+            Array [
+              188,
+              30,
+            ]
+          }
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
+          onResize={[Function]}
+          onResizeStart={[Function]}
+          onResizeStop={[Function]}
+          onTouchEnd={[Function]}
+          resizeHandles={
+            Array [
+              "se",
+            ]
+          }
+          transformScale={1}
+          width={288}
+        >
+          <div
+            className="react-grid-item react-draggable cssTransforms react-resizable"
+            data-grid={
+              Object {
+                "h": 2,
+                "maxW": 4,
+                "minW": 2,
+                "w": 3,
+                "x": 1,
+                "y": 0,
+              }
+            }
+            key="b"
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            style={
+              Object {
+                "MozTransform": "translate(109px,10px)",
+                "OTransform": "translate(109px,10px)",
+                "WebkitTransform": "translate(109px,10px)",
+                "height": "70px",
+                "msTransform": "translate(109px,10px)",
+                "position": "absolute",
+                "transform": "translate(109px,10px)",
+                "width": "288px",
+              }
+            }
+          >
+            b
+            <DraggableCore
+              allowAnyClick={false}
+              disabled={false}
+              enableUserSelectHack={true}
+              key="resizableHandle-se"
+              nodeRef={
+                Object {
+                  "current": <span
+                    class="react-resizable-handle react-resizable-handle-se"
+                  />,
+                }
+              }
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              scale={1}
+            >
+              <span
+                className="react-resizable-handle react-resizable-handle-se"
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+              />
+            </DraggableCore>
+          </div>
+        </Resizable>
+      </DraggableCore>
+    </GridItem>
+    <GridItem
+      cancel=""
+      className=""
+      cols={12}
+      containerPadding={
+        Array [
+          10,
+          10,
+        ]
+      }
+      containerWidth={1200}
+      h={2}
+      handle=""
+      i="c"
+      isBounded={false}
+      isDraggable={true}
+      isResizable={true}
+      key=".$c"
+      margin={
+        Array [
+          10,
+          10,
+        ]
+      }
+      maxH={Infinity}
+      maxRows={Infinity}
+      maxW={Infinity}
+      minH={1}
+      minW={1}
+      onDrag={[Function]}
+      onDragStart={[Function]}
+      onDragStop={[Function]}
+      onResize={[Function]}
+      onResizeStart={[Function]}
+      onResizeStop={[Function]}
+      resizeHandles={
+        Array [
+          "se",
+        ]
+      }
+      rowHeight={30}
+      static={false}
+      transformScale={1}
+      useCSSTransforms={true}
+      usePercentages={false}
+      w={1}
+      x={4}
+      y={0}
+    >
+      <DraggableCore
+        allowAnyClick={false}
+        cancel=".react-resizable-handle"
+        disabled={false}
+        enableUserSelectHack={true}
+        handle=""
+        nodeRef={
+          Object {
+            "current": <div
+              class="react-grid-item react-draggable cssTransforms react-resizable"
+              data-grid="[object Object]"
+              style="width: 89px; height: 70px; position: absolute; transform: translate(407px,10px);"
+            >
+              c
+              <span
+                class="react-resizable-handle react-resizable-handle-se"
+              />
+            </div>,
+          }
+        }
+        onDrag={[Function]}
+        onMouseDown={[Function]}
+        onStart={[Function]}
+        onStop={[Function]}
+        scale={1}
+      >
+        <Resizable
+          axis="both"
+          draggableOpts={
+            Object {
+              "disabled": false,
+            }
+          }
+          handleSize={
+            Array [
+              20,
+              20,
+            ]
+          }
+          height={70}
+          lockAspectRatio={false}
+          maxConstraints={
+            Array [
+              783,
+              Infinity,
+            ]
+          }
+          minConstraints={
+            Array [
+              89,
+              30,
+            ]
+          }
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
+          onResize={[Function]}
+          onResizeStart={[Function]}
+          onResizeStop={[Function]}
+          onTouchEnd={[Function]}
+          resizeHandles={
+            Array [
+              "se",
+            ]
+          }
+          transformScale={1}
+          width={89}
+        >
+          <div
+            className="react-grid-item react-draggable cssTransforms react-resizable"
+            data-grid={
+              Object {
+                "h": 2,
+                "w": 1,
+                "x": 4,
+                "y": 0,
+              }
+            }
+            key="c"
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            style={
+              Object {
+                "MozTransform": "translate(407px,10px)",
+                "OTransform": "translate(407px,10px)",
+                "WebkitTransform": "translate(407px,10px)",
+                "height": "70px",
+                "msTransform": "translate(407px,10px)",
+                "position": "absolute",
+                "transform": "translate(407px,10px)",
+                "width": "89px",
+              }
+            }
+          >
+            c
+            <DraggableCore
+              allowAnyClick={false}
+              disabled={false}
+              enableUserSelectHack={true}
+              key="resizableHandle-se"
+              nodeRef={
+                Object {
+                  "current": <span
+                    class="react-resizable-handle react-resizable-handle-se"
+                  />,
+                }
+              }
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              scale={1}
+            >
+              <span
+                className="react-resizable-handle react-resizable-handle-se"
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+              />
+            </DraggableCore>
+          </div>
+        </Resizable>
+      </DraggableCore>
+    </GridItem>
+  </div>
+</ReactGridLayout>
+`;
+
+exports[`Lifecycle tests <ReactGridLayout> data-grid Null items in list 1`] = `
+<ReactGridLayout
+  allowOverlap={false}
+  autoSize={true}
+  className="layout"
+  cols={12}
+  compactType="vertical"
+  containerPadding={null}
+  draggableCancel=""
+  draggableHandle=""
+  droppingItem={
+    Object {
+      "h": 1,
+      "i": "__dropping-elem__",
+      "w": 1,
+    }
+  }
+  isBounded={false}
+  isDraggable={true}
+  isDroppable={false}
+  isResizable={true}
+  layout={Array []}
+  margin={
+    Array [
+      10,
+      10,
+    ]
+  }
+  maxRows={Infinity}
+  onDrag={[Function]}
+  onDragStart={[Function]}
+  onDragStop={[Function]}
+  onDrop={[Function]}
+  onDropDragOver={[Function]}
+  onLayoutChange={[Function]}
+  onResize={[Function]}
+  onResizeStart={[Function]}
+  onResizeStop={[Function]}
+  preventCollision={false}
+  resizeHandles={
+    Array [
+      "se",
+    ]
+  }
+  rowHeight={30}
+  style={Object {}}
+  transformScale={1}
+  useCSSTransforms={true}
+  verticalCompact={true}
+  width={1200}
+>
+  <div
+    className="react-grid-layout layout"
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    style={
+      Object {
+        "height": "90px",
+      }
+    }
+  >
+    <GridItem
+      cancel=""
+      className=""
+      cols={12}
+      containerPadding={
+        Array [
+          10,
+          10,
+        ]
+      }
+      containerWidth={1200}
+      h={2}
+      handle=""
+      i="a"
+      isBounded={false}
+      isDraggable={false}
+      isResizable={false}
+      key=".$a"
+      margin={
+        Array [
+          10,
+          10,
+        ]
+      }
+      maxH={Infinity}
+      maxRows={Infinity}
+      maxW={Infinity}
+      minH={1}
+      minW={1}
+      onDrag={[Function]}
+      onDragStart={[Function]}
+      onDragStop={[Function]}
+      onResize={[Function]}
+      onResizeStart={[Function]}
+      onResizeStop={[Function]}
+      resizeHandles={
+        Array [
+          "se",
+        ]
+      }
+      rowHeight={30}
+      static={true}
+      transformScale={1}
+      useCSSTransforms={true}
+      usePercentages={false}
+      w={1}
+      x={0}
+      y={0}
+    >
+      <DraggableCore
+        allowAnyClick={false}
+        cancel=".react-resizable-handle"
+        disabled={true}
+        enableUserSelectHack={true}
+        handle=""
+        nodeRef={
+          Object {
+            "current": <div
+              class="react-grid-item static cssTransforms react-resizable-hide react-resizable"
+              data-grid="[object Object]"
+              style="width: 89px; height: 70px; position: absolute; transform: translate(10px,10px);"
+            >
+              a
+              <span
+                class="react-resizable-handle react-resizable-handle-se"
+              />
+            </div>,
+          }
+        }
+        onDrag={[Function]}
+        onMouseDown={[Function]}
+        onStart={[Function]}
+        onStop={[Function]}
+        scale={1}
+      >
+        <Resizable
+          axis="both"
+          className="react-resizable-hide"
+          draggableOpts={
+            Object {
+              "disabled": true,
+            }
+          }
+          handleSize={
+            Array [
+              20,
+              20,
+            ]
+          }
+          height={70}
+          lockAspectRatio={false}
+          maxConstraints={
+            Array [
+              1180,
+              Infinity,
+            ]
+          }
+          minConstraints={
+            Array [
+              89,
+              30,
+            ]
+          }
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
+          onResize={[Function]}
+          onResizeStart={[Function]}
+          onResizeStop={[Function]}
+          onTouchEnd={[Function]}
+          resizeHandles={
+            Array [
+              "se",
+            ]
+          }
+          transformScale={1}
+          width={89}
+        >
+          <div
+            className="react-grid-item static cssTransforms react-resizable-hide react-resizable"
+            data-grid={
+              Object {
+                "h": 2,
+                "static": true,
+                "w": 1,
+                "x": 0,
+                "y": 0,
+              }
+            }
+            key="a"
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            style={
+              Object {
+                "MozTransform": "translate(10px,10px)",
+                "OTransform": "translate(10px,10px)",
+                "WebkitTransform": "translate(10px,10px)",
+                "height": "70px",
+                "msTransform": "translate(10px,10px)",
+                "position": "absolute",
+                "transform": "translate(10px,10px)",
+                "width": "89px",
+              }
+            }
+          >
+            a
+            <DraggableCore
+              allowAnyClick={false}
+              disabled={true}
+              enableUserSelectHack={true}
+              key="resizableHandle-se"
+              nodeRef={
+                Object {
+                  "current": <span
+                    class="react-resizable-handle react-resizable-handle-se"
+                  />,
+                }
+              }
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              scale={1}
+            >
+              <span
+                className="react-resizable-handle react-resizable-handle-se"
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+              />
+            </DraggableCore>
+          </div>
+        </Resizable>
+      </DraggableCore>
+    </GridItem>
+    <GridItem
+      cancel=""
+      className=""
+      cols={12}
+      containerPadding={
+        Array [
+          10,
+          10,
+        ]
+      }
+      containerWidth={1200}
+      h={2}
+      handle=""
+      i="c"
+      isBounded={false}
+      isDraggable={true}
+      isResizable={true}
+      key=".$c"
+      margin={
+        Array [
+          10,
+          10,
+        ]
+      }
+      maxH={Infinity}
+      maxRows={Infinity}
+      maxW={Infinity}
+      minH={1}
+      minW={1}
+      onDrag={[Function]}
+      onDragStart={[Function]}
+      onDragStop={[Function]}
+      onResize={[Function]}
+      onResizeStart={[Function]}
+      onResizeStop={[Function]}
+      resizeHandles={
+        Array [
+          "se",
+        ]
+      }
+      rowHeight={30}
+      static={false}
+      transformScale={1}
+      useCSSTransforms={true}
+      usePercentages={false}
+      w={1}
+      x={4}
+      y={0}
+    >
+      <DraggableCore
+        allowAnyClick={false}
+        cancel=".react-resizable-handle"
+        disabled={false}
+        enableUserSelectHack={true}
+        handle=""
+        nodeRef={
+          Object {
+            "current": <div
+              class="react-grid-item react-draggable cssTransforms react-resizable"
+              data-grid="[object Object]"
+              style="width: 89px; height: 70px; position: absolute; transform: translate(407px,10px);"
+            >
+              c
+              <span
+                class="react-resizable-handle react-resizable-handle-se"
+              />
+            </div>,
+          }
+        }
+        onDrag={[Function]}
+        onMouseDown={[Function]}
+        onStart={[Function]}
+        onStop={[Function]}
+        scale={1}
+      >
+        <Resizable
+          axis="both"
+          draggableOpts={
+            Object {
+              "disabled": false,
+            }
+          }
+          handleSize={
+            Array [
+              20,
+              20,
+            ]
+          }
+          height={70}
+          lockAspectRatio={false}
+          maxConstraints={
+            Array [
+              783,
+              Infinity,
+            ]
+          }
+          minConstraints={
+            Array [
+              89,
+              30,
+            ]
+          }
+          onMouseDown={[Function]}
+          onMouseUp={[Function]}
+          onResize={[Function]}
+          onResizeStart={[Function]}
+          onResizeStop={[Function]}
+          onTouchEnd={[Function]}
+          resizeHandles={
+            Array [
+              "se",
+            ]
+          }
+          transformScale={1}
+          width={89}
+        >
+          <div
+            className="react-grid-item react-draggable cssTransforms react-resizable"
+            data-grid={
+              Object {
+                "h": 2,
+                "w": 1,
+                "x": 4,
+                "y": 0,
+              }
+            }
+            key="c"
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            style={
+              Object {
+                "MozTransform": "translate(407px,10px)",
+                "OTransform": "translate(407px,10px)",
+                "WebkitTransform": "translate(407px,10px)",
+                "height": "70px",
+                "msTransform": "translate(407px,10px)",
+                "position": "absolute",
+                "transform": "translate(407px,10px)",
+                "width": "89px",
+              }
+            }
+          >
+            c
+            <DraggableCore
+              allowAnyClick={false}
+              disabled={false}
+              enableUserSelectHack={true}
+              key="resizableHandle-se"
+              nodeRef={
+                Object {
+                  "current": <span
+                    class="react-resizable-handle react-resizable-handle-se"
+                  />,
+                }
+              }
+              onDrag={[Function]}
+              onMouseDown={[Function]}
+              onStart={[Function]}
+              onStop={[Function]}
+              scale={1}
+            >
+              <span
+                className="react-resizable-handle react-resizable-handle-se"
+                onMouseDown={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+              />
+            </DraggableCore>
+          </div>
+        </Resizable>
+      </DraggableCore>
+    </GridItem>
+  </div>
+</ReactGridLayout>
 `;
 
 exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
@@ -8912,6 +9601,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
       useCSSTransforms={true}
     >
       <ResponsiveReactGridLayout
+        allowOverlap={false}
         breakpoints={
           Object {
             "lg": 1200,
@@ -9501,6 +10191,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
         width={1280}
       >
         <ReactGridLayout
+          allowOverlap={false}
           autoSize={true}
           className="layout"
           cols={12}
@@ -10297,6 +10988,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
           onDragStart={[Function]}
           onDragStop={[Function]}
           onDrop={[Function]}
+          onDropDragOver={[Function]}
           onLayoutChange={[Function]}
           onResize={[Function]}
           onResizeStart={[Function]}
@@ -10380,7 +11072,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -10399,13 +11090,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -10474,11 +11163,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -10487,13 +11173,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -10560,7 +11244,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -10579,13 +11262,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -10654,11 +11335,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -10667,13 +11345,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -10740,7 +11416,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -10759,13 +11434,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -10834,11 +11507,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -10847,13 +11517,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -10920,7 +11588,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -10939,13 +11606,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -11014,11 +11679,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -11027,13 +11689,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -11100,7 +11760,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -11119,13 +11778,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -11194,11 +11851,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -11207,13 +11861,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -11280,7 +11932,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -11299,13 +11950,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -11374,11 +12023,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -11387,13 +12033,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -11460,7 +12104,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -11479,13 +12122,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -11554,11 +12195,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -11567,13 +12205,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -11640,7 +12276,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -11659,13 +12294,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -11734,11 +12367,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -11747,13 +12377,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -11820,7 +12448,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -11839,13 +12466,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -11914,11 +12539,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -11927,13 +12549,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -12000,7 +12620,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -12019,13 +12638,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -12094,11 +12711,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -12107,13 +12721,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -12180,7 +12792,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={true}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -12201,13 +12812,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -12279,11 +12888,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={true}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -12292,13 +12898,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -12365,7 +12969,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -12384,13 +12987,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -12459,11 +13060,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -12472,13 +13070,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -12545,7 +13141,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -12564,13 +13159,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -12639,11 +13232,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -12652,13 +13242,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -12725,7 +13313,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -12744,13 +13331,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -12819,11 +13404,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -12832,13 +13414,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -12905,7 +13485,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -12924,13 +13503,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -12999,11 +13576,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -13012,13 +13586,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -13085,7 +13657,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -13104,13 +13675,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -13179,11 +13748,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -13192,13 +13758,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -13265,7 +13829,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -13284,13 +13847,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -13359,11 +13920,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -13372,13 +13930,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -13445,7 +14001,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -13464,13 +14019,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -13539,11 +14092,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -13552,13 +14102,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -13625,7 +14173,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -13644,13 +14191,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -13719,11 +14264,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -13732,13 +14274,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -13805,7 +14345,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -13824,13 +14363,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -13899,11 +14436,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -13912,13 +14446,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -13985,7 +14517,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -14004,13 +14535,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -14079,11 +14608,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -14092,13 +14618,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -14165,7 +14689,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={true}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -14186,13 +14709,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -14264,11 +14785,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={true}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -14277,13 +14795,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -14350,7 +14866,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -14369,13 +14884,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -14444,11 +14957,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -14457,13 +14967,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -14530,7 +15038,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -14549,13 +15056,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -14624,11 +15129,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -14637,13 +15139,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
@@ -14710,7 +15210,6 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 cancel=".react-resizable-handle"
                 disabled={false}
                 enableUserSelectHack={true}
-                grid={null}
                 handle=""
                 nodeRef={
                   Object {
@@ -14729,13 +15228,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </div>,
                   }
                 }
-                offsetParent={null}
                 onDrag={[Function]}
                 onMouseDown={[Function]}
                 onStart={[Function]}
                 onStop={[Function]}
                 scale={1}
-                transform={null}
               >
                 <Resizable
                   axis="both"
@@ -14804,11 +15301,8 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                     </span>
                     <DraggableCore
                       allowAnyClick={false}
-                      cancel={null}
                       disabled={false}
                       enableUserSelectHack={true}
-                      grid={null}
-                      handle={null}
                       key="resizableHandle-se"
                       nodeRef={
                         Object {
@@ -14817,13 +15311,11 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                           />,
                         }
                       }
-                      offsetParent={null}
                       onDrag={[Function]}
                       onMouseDown={[Function]}
                       onStart={[Function]}
                       onStop={[Function]}
                       scale={1}
-                      transform={null}
                     >
                       <span
                         className="react-resizable-handle react-resizable-handle-se"
