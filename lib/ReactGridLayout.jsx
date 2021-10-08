@@ -774,7 +774,6 @@ export default class ReactGridLayout extends React.Component<Props, State> {
   };
 
   onDragLeave: EventHandler = e => {
-    e.preventDefault(); // Prevent any browser native action
     if (this.dragEnterCounter > 0) {
       this.dragEnterCounter--;
     }
